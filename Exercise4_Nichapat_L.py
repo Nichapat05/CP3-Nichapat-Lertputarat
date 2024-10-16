@@ -1,7 +1,7 @@
-FE = float(input())
-GB = float(input())
-ITCS = float(input())
-CP = float(input())
+FE = float(input("Foundation English : "))
+GB = float(input("General Business : "))
+ITCS = float(input("Introduction to Computer Systems : "))
+CP = float(input("Computer Programming : "))
 
 print("--- Your Score ---")
 print("Foundation English : " + str(FE))
