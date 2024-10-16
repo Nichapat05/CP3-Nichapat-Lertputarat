@@ -1,10 +1,2 @@
-FE = float(input("Foundation English : "))
-GB = float(input("General Business : "))
-ITCS = float(input("Introduction to Computer Systems : "))
-CP = float(input("Computer Programming : "))
-
-print("--- Your Score ---")
-print("Foundation English : " + str(FE))
-print("General Business : " + str(GB))
-print("Introduction to Computer Systems : " + str(ITCS))
-print("Computer Programming : " + str(CP))
+y = "5"
+print(y+5)
