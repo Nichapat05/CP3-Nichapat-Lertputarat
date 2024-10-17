@@ -20,6 +20,8 @@ if Username  == "Ari"  and Password == "123456789":
         elif Selected == 3 :
             price = 30
             print("You buy Cappuccino")
+        else :
+            print("Error")
     if Selected == 2 :
         print("1. Black Forest")
         print("2. Strawberry")
@@ -34,6 +36,13 @@ if Username  == "Ari"  and Password == "123456789":
         elif Selected == 3 :
             price = 120
             print("You buy Chocolate Cake")
-    print("Total : ", price," bath")
+        else :
+            print("Error")
+    else :
+        print("Error")
+    print("Total : ", price ," bath")
+else :
+    print("The username or password is incorrect.")
+
 
         
